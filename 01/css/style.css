@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,ul,li,p{margin:0; padding:0;}
+body{font-family:arial;}
+html,body{height: 100%;}
+ul{list-style:none;}
+img,input{display: block;}
+a{text-decoration:none;}
+body{font-family:arial;}
+.clear{clear: both;}
+header,section,article,footer,nav,aside,time{display: block;}
+header{background: url(../images/oshin-slide-1.jpg) no-repeat center top;height:100%;}
+
+@font-face{font-family:fa;src: url(../fonts/FontAwesome.otf),url(../fonts/fontawesome-webfont.eot),url(../fonts/fontawesome-webfont.svg),url(../fonts/fontawesome-webfont.ttf),url(../fonts/fontawesome-webfont.woff),url(../fonts/fontawesome-webfont.woff2);}
+
+.inner .logo{float:left;width:118px;height: 50px; padding:25px 0 0 2%;}
+.inner nav {width:896px; position: absolute;left:50%;top:0;margin-left:-448px;}
+.inner nav li{float:left;padding:0 21px;line-height: 99px; height: 99px;}
+.inner nav li a{font-size:12px;color: #333; text-transform: uppercase;font-weight: bold;}
+.inner nav li a:hover{color: #e3b467;}
+.inner nav li:first-child a{color: #e3b467;}
+.inner .iocn{float:right;padding:40px 2% 0 0; text-align: center;}
+.inner .iocn a{color: #333;font-size:20px;padding-right:20px;}
+.inner .juzhong{width:364px;height: 313px;position: absolute;left:50%;top:50%;transform: translate(-50%,-50%);}
+.inner .juzhong h1{width: 350px;height: 102px;border:7px solid #000;text-align: center;line-height: 102px;font-size:43px;color: #000;font-weight:900;text-transform: uppercase;letter-spacing:9px;}
+.inner .text1{font-size:18PX;color:#222;letter-spacing:9px;line-height:80px;text-align: center;text-transform: uppercase;}
+.inner .text2{font-size:18PX;color:#222;line-height:117px;text-align:center;text-transform:capitalize;}
+
+.two{text-align: center;margin-bottom:90px;}
+.two h2{line-height: 28px;padding-top:98px;}
+.two p{line-height:108px;}
+.two .kuai{display: inline-block; width: 10px;height:10px;background:#e0a240;transform:rotate(45deg);position: relative;}
+.two .kuai:before{content:"";width: 20px;height:1px;background: #e8e8e8;position: absolute;transform:rotate(-45deg) translate(18px,-4px);}
+.two .kuai:after{content:"";width: 20px;height:1px;background: #e8e8e8;position: absolute;transform:rotate(-45deg) translate(-40px,-4px);}
+.two p:nth-of-type(2){line-height: 33px;font-size:18px;color:#91939c;padding:35px 0 100px 0;}
+.two li{height: 245px;width: 25%;float:left;background: #f2f5f8;}
+.two li:nth-child(2n){background: #edf0f2;}
+.two li a{padding-top: 60px;font-size:50px;}
+.two ul p{line-height: 54px; color:#000;font-size: 14px;font-weight: bold;}
+.two .pic{width: 1140px; margin: 0 auto;}
+.two .pic img{width:1024px;}
+
+
+
+
+
+.san{width:1200px;margin:0 auto;}
+.san .text_l{float:left;width: 390px;}
+.san .pic{float:left;width: 334px;margin:0 43px;}
+.san .pic img{width:100%;}
+.san .text_r{float:right;width: 390px;}
+.san .text_in{width:100%;padding-bottom: 50px;}
+.san .text_in .text_pic{float:left;width:49px;}
+.san .text_in .text_txet1{float:right;width:311px;}
+.san .text_txet1 h3{color:#222226;font-size:14px;line-height:30px;padding-bottom:12px;}
+.san .text_txet1 p{width:276px; color: #717374; font-size: 12px;line-height: 26px;}
+
+.si{height: 400px;background:url(../images/wanderlust01.jpg) no-repeat center top /cover fixed;margin-top:80px;}
+
+.wu{text-align: center;margin-bottom:90px;}
+.wu h2{line-height: 28px;padding-top:98px;}
+.wu p{line-height:108px;}
+.wu .kuai{display: inline-block; width: 10px;height:10px;background:#e0a240;transform:rotate(45deg);position: relative;}
+.wu .kuai:before{content:"";width: 20px;height:1px;background: #e8e8e8;position: absolute;transform:rotate(-45deg) translate(18px,-4px);}
+.wu .kuai:after{content:"";width: 20px;height:1px;background: #e8e8e8;position: absolute;transform:rotate(-45deg) translate(-40px,-4px);}
+.wu p:nth-of-type(2){line-height: 33px;font-size:18px;color:#91939c;padding:35px 0 100px 0;}
+.wu li{display: inline-block;margin-right:8px;line-height:44px;}
+.wu li a{color:#222;font-size: 11px;font-weight: bold;display: block;padding:0 18px; height: 42px;border:1px solid #fff;}
+.wu li a:hover{color:#e4a240; border:1px solid #e4a240;}
+.wu li:nth-of-type(1) a{color:#e4a240; border:1px solid #e4a240;}
+.wu ul{margin-bottom: 50px;}
+.san .pic6{float: left;padding:0 40px 40px 0;}
+.san .pic6 img{width:372px;height:211px;}
+.san .pic6:nth-of-type(3){padding:0;}
+.san .pic6:nth-of-type(6){padding:0;}
+.san .anniu{width:158px;line-height:44px;border:2px solid #000;margin:0 auto;text-align: center;color:#1c1c1c;font-size:12px;}
+
+
+.liu{height: 415px;background:#f2f3f8;margin-top:90px;text-align: center;}
+.liu a{font-size: 100px;color:#dfdfdf;padding-top:95px;}
+.liu p{line-height:36px;color:#a99395;font-size:19px;}
+.liu p span{color: #e0a444;}
+.liu div{line-height: 55px;color: #262226;font-size: 12PX;}
+
+
+.qi_l{float: left;width:48%;margin-left:4%;}
+.qi_r{float: right;width:48%;}
+
+.ba{background: url(../images/qiepian_19.jpg);height: 340px;margin-top:90px;text-align: center;}
+.ba h2{font-size:25px;color:#fff;line-height:53px;padding-top:87px;text-transform: uppercase;}
+.ba p{font-size:18px;color: #fefefe;line-height:44px;}
+.ba div{display: inline-block;width:110px;height:44px;background:#f0b452;margin-top:21px;}
+.ba div a{color: #fdf7ef;font-size:12px;line-height:44px;}
+
+
+.jiu{height:437px;background:#f2f3f8;}
+.jiu .jiu_in{width: 1200px;margin:0 auto;padding-top:70px;}
+.jiu .jiutext1{width:305px;float:left;}
+.jiu .jiutext2{width:267px;float:left;}
+.jiu .jiu_in .jiutext1:nth-of-type(1){margin-left:18px;} 
+.jiu .pic1 img {width:120px; height:50px;}
+.jiu .p1{color: #838383;font-size:12px;line-height:24px;width:234px;padding-top:30px;}
+.jiu .fa{font-size:30px; padding:30px 12px 0 0;color:#e0a240; }
+.jiu .jiutext1 h3{font-size: 12px;line-height:20px;padding-bottom:23px;}
+.jiu .jiutext1 .pic2{float: left;padding:4px 10px 10px 0;}
+.jiu .jiutext1 .pic2 img{width:50px;}
+.jiu .jiutext1 .p2{float: left;width: 150px;color:#918983;line-height:24px;font-size:12px;}
+.jiu .jiutext1 time{line-height: 31px;color: #9b8c7d;font-size:12px;padding-bottom:24px;}
+
+.jiu .jiutext1 li{padding-left:24px;}
+.jiu .jiutext1 li a{line-height: 36px;color:#777c81;font-size:12px;}
+.jiu .jiutext1 li{background:url(../images/qiepian_03.jpg) no-repeat center left;}
+
+
+
+.jiu .jiutext2 div{float: left;padding:7px 15px 8px 0;}
+.jiu .jiutext2 img{width: 70px;height:70px;}
+.jiu .jiutext2 h3{font-size: 12px;line-height:20px;padding-bottom:14px;}
+
+
+
+
+
+
+
+
+
+footer p{height:70px; line-height: 70px;text-align: center;color:#939595;font-size:16px;}
+
+
+
+
+
+
+
+
+
+                                                        

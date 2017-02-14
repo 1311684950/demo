@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width:1280px){
+	.inner .logo{width:9%;}
+	.inner nav{width:70%;margin-left:-35%;}
+	.inner nav li{padding:0 2%;}
+	.two .pic{width: 80%;}
+	.two .pic img{width:80%; }
+	.san{width: 93%;}
+	.san .pic{width: 20%;margin:0 3%;}
+	.san .text_l{width:32%;}
+	.san .text_r{width:32%;}
+	.san .text_in .text_pic{width: 5%;}
+	.san .text_in .text_pic img{width: 5%;}
+	.san .text_in{width: 30%;}
+	.san .text_txet1{width:24%;}
+	.san .pic6 img{width:31%;}
+	.san .pic6{padding:0 3% 3% 0;}
+	.jiu .jiu_in{width:93%;}
+	.jiu .jiutext1{width:23%;}
+	.jiu .jiutext2{width: 20%;}
+	.jiu .pic1 img{width:9%;}
+	.jiu .p1{width:18%;}
+	.jiu .jiutext1 .p2{width:11%;}
+}
+@media screen and (max-width:960px){
+	.inner nav{display:none;}
+	.two ul li{width:100%;float: none;}
+	.jiutext2 div{float:none;}
+	.san .text_in{float: none;}
+	.san .pic{float:none;width: 100%;}
+    .san .text_r{float: none;width: 100%;}
+	  .san .text_l{float: none;width: 100%;}
+}
